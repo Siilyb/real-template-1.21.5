@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.real.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChatHudMixin",
+    "ChatScreenMixin",
+    "ExampleMixin",
+    "HandledScreenMixin",
+    "ScreenHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "SoundManagerMixin"
+  ]
+}
